@@ -7,6 +7,7 @@ const App = () => {
   return (
     <div>
       <h1>KittyKatFriends</h1>
+      <SearchBox />
       <CardList cats={ cats }/>
     </div>
   );
