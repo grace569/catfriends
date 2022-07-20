@@ -22,7 +22,6 @@ class App extends Component {
       return cat.name.toLowerCase().includes(this.state.searchField.toLowerCase());
     })
 
-
     return (
       <div className='tc'>
         <h1>KittyKatFriends</h1>
