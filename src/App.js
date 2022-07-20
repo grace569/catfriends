@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import SearchBox from './SearchBox';
 import CardList from './CardList';
 import { cats } from './cats';
+import './App.css';
 
 
 class App extends Component {
