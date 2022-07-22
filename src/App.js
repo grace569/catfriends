@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SearchBox from './SearchBox';
+import Scroll from './Scroll';
 import CardList from './CardList';
 import './App.css';
 
@@ -14,7 +15,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const cats = fetch('https://jsonplaceholder.typicode.com/users')
+    fetch('https://jsonplaceholder.typicode.com/users')
       .then(response => response.json())
       .then(users => this.setState({ cats: users }) );
   }
@@ -35,7 +36,9 @@ class App extends Component {
         <div className='tc'>
           <h1>KittyKatFriends</h1>
           <SearchBox searchChange={ this.onSearchChange } searchField={ this.state.searchField } />
-          <CardList cats={ filteredCats }/>
+          <Scroll>
+            <CardList cats={ filteredCats }/>
+          </Scroll>
         </div>
       );
     }
