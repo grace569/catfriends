@@ -6,6 +6,10 @@ A fully responsive ReactJS web app UI that let's you browse and search your furr
 
 ## Getting Started
 
+You may preview the project here - https://grace569.github.io/kittykatfriends/
+
+Otherwise, you can download the source code and follow below. 
+
 On initial download, run in the project directory: 
 
 ### `npm i` 
