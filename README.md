@@ -1,4 +1,4 @@
-# KittyKatFriends 
+# CatFriends 
 A fully responsive ReactJS web app UI that let's you browse and search your furry friends. 
 
 ![Screen_Recording_2022-07-21_at_17_24_13_AdobeExpress](https://user-images.githubusercontent.com/60521308/180337577-1c74f1d4-14da-47a9-a8bc-dd84154a6612.gif)
